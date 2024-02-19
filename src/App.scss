@@ -1,0 +1,111 @@
+:root {
+  font-family: "JetBrains Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: gray;
+  
+
+}
+body{
+  background-color:antiquewhite;
+  text-align:right;
+  &.dark-mode {
+    background-color:#282c34;
+    .odd{
+      background-color: #0f0f10b8;
+    }
+    .par{
+      background-color: #1e2024e3;
+    }
+
+
+  }
+}
+
+.loader {
+  width: 48px;
+  height: 48px;
+  border: 5px solid #FFF;
+  border-bottom-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+  0% {
+      transform: rotate(0deg);
+  }
+
+  100% {
+      transform: rotate(360deg);
+  }
+}
+
+figure {
+  max-width: 430px;
+  margin: 0 auto;
+  position: fixed;
+  top: 0;
+}
+
+figure img {
+  width: 100%;
+  opacity: .5;
+  
+}
+h1{
+  position: fixed;
+  top: 0;
+  text-align: center;
+  border-radius: .5em;
+  margin: 0;
+  font-size: 3em;
+}
+ul{
+  padding: 0;
+}
+li{
+  padding: 1em;
+
+}
+li span:hover{
+  cursor: pointer;
+  background-color: lime;
+}
+li span:active{
+  background-color: aqua;
+}
+.odd{
+  background-color:rgba(255, 235, 205, 0.6);
+  padding: 2em 0;
+}
+.par{
+  background-color:rgba(255, 248, 220, 0.6);
+  padding: 2em 0;
+}
+.footer{
+  width: 100%;
+  position:sticky;
+  bottom:0;
+  background-color:blanchedalmond;
+  padding: 1em 0;
+  font-size: .8em;
+  text-align: center;
+}
+.list{
+  position: relative;
+}
+.btn-darkMode{
+  background-color: #282c34;
+  color: antiquewhite;
+  cursor: pointer;
+  &.active{
+    background-color:antiquewhite ;
+    color: #282c34;
+  }
+ padding: 1em;
+
+}

@@ -1,0 +1,10 @@
+#hoverBox {
+    position: fixed;
+    background-color: rgb(198, 3, 3);
+    border: 1px solid #ccc;
+    color: white;
+    padding: 5px;
+    min-width: 100px;
+    min-height: 100px;
+    z-index: 99;
+  }
