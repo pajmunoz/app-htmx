@@ -44,7 +44,7 @@ function App() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get('https://pajmunoz.github.io/htmx/api.json');
+        const response = await axios.get('https://pajmunoz.github.io/app-profile/src/api.json');
         setData(response.data.results[0]);
         setLoading(false);
       } catch (error) {
