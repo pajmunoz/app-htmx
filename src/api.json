@@ -1,0 +1,61 @@
+{
+    "results": [
+        {
+            "gender": "Male",
+            "name": {
+                "first": "Pablo",
+                "last": "Jara"
+            },
+            "location": {
+                "city": "Junin",
+                "state": "Buenos Aires",
+                "country": "Argentina",
+                "postcode": 6000,
+                "timezone": {
+                    "offset": "-3.00",
+                    "description": "Buenos Aires"
+                }
+            },
+            "studies":{
+                "university":[
+                    "Universidad de Palermo (ARG)",
+                    "Universidad Técnica Nacional (ARG)",
+                    "Instituto Metropolitano de Diseño (EC)"
+                ],
+                "certifications":[
+                    "Fullstack developer"
+                ]
+            },
+            "stack": {
+                "front": [
+                    "React",
+                    "Angular",
+                    "HTMX",
+                    "Wordpress",
+                    "Sitecore",
+                    "Mustache"
+                ],
+                "back": [
+                    "Node.js",
+                    "PHP"
+                ],
+                "team": [
+                    "Scrum",
+                    "Agile"
+                ]
+            },
+            "email": "pablojaramunoz@icloud.com",
+            "dob": {
+                "date": "1991-10-22T05:00:11.517Z",
+                "age": 31
+            },
+            "phone": "+54 9 11 3942-1628",
+            "picture": {
+                "large": "https://pajmunoz.github.io/htmx/assets/me.gif",
+                "medium": "https://randomuser.me/api/portraits/med/women/58.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/women/58.jpg"
+            },
+            "nat": "EC"
+        }
+    ]
+}
